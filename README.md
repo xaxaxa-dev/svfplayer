@@ -4,6 +4,10 @@ libsvfplayer is a JTAG .svf parser and player library in C++, designed to be gen
 * svfParser - lexer and parser for the SVF language
 * svfPlayer - takes svf commands (can be from a svfParser) and generates a JTAG waveform that can be replayed (e.g. by bit-banging or dma gpio)
 
+Example applications:
+* Programming an FPGA without a xilinx or altera programmer (using e.g. a orange pi or any SBC with gpio)
+* Automated programmers for production use
+
 Example usage:
 ```c++
 svfParser parser;
